@@ -1,0 +1,40 @@
+:root{
+  --left-color:white;
+  --middle-color: white;
+  --right-color:white;
+}
+
+
+.banner-weather{
+    background-color: aqua;
+}
+
+.banner-weather h1{
+  margin-bottom: 0;
+}
+
+.current-weather{
+    background: linear-gradient(90deg,var(--left-color),var(--middle-color),var(--right-color));
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+    margin-bottom: 0;
+}
+
+.current-weather img {
+  mix-blend-mode:darken;
+  height: 70px;
+  width: 70px;
+}
+
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

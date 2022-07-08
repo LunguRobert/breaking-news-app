@@ -1,0 +1,17 @@
+.header-bar {
+    background-color: #1A1A1A;
+    padding-top: auto;
+    padding-bottom: auto;
+    height: 80px;
+}
+
+#weather{
+    color: white;
+    align-self:center;
+    padding-right: 5px;
+}
+
+.header-bar span:hover{
+    font-weight: bold;
+}
+

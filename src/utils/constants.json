@@ -1,0 +1,50 @@
+{
+    "clear-day": [
+        "#3294e4","#ffe98d","#8db8fd"
+    ],
+    "partly-cloudy-day" : [
+        "#503ea6","#7c4fa9","#d872b0"
+    ],
+    "snow" : [
+        "#503ea6","#7c4fa9","#d872b0"
+    ],
+    "snow-showers-day" : [
+        "#28e824","#94c143","#fceeb9"
+    ],
+    "snow-showers-night" : [
+        "#54a3d0","#d6fec1","#ceb787"
+    ],
+    "thunder-rain" : [
+        "#e96590","#6109d6","#7a8517"
+    ],
+    "thunder-showers-day" : [
+        "#3cfe96","#470c3e","#827b08"
+    ],
+    "thunder-showers-night" : [
+        "#fbb37c","#3e2513","#7ab37f"
+    ],
+    "rain" : [
+        "#a7965f","#24e4ab","#57649b"
+    ],
+    "showers-day" : [
+        "#ce0ab9","#f9f8d9","#9544ac"
+    ],
+    "showers-night" : [
+        "#1e1541","#8371a2","#429b31"
+    ],
+    "fog" : [
+        "#5c7ee4","#e4e5c8","#00dcfe"
+    ],
+    "wind" : [
+        "#b7cff3","#5f6161","#6ee5e5"
+    ],
+    "cloudy" : [
+        "#4eda34","#814eb3","#fb9d9f"
+    ],
+    "partly-cloudy-night" : [
+        "#48ed77","#6aae97","#e6f90e"
+    ],
+    "clear-night" : [
+        "#be6bd5","#7b07dc","#d98091"
+    ]
+}
