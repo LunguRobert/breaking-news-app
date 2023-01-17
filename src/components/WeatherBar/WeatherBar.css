@@ -1,39 +1,43 @@
-:root{
-    --left-color:white;
-    --middle-color: white;
-    --right-color:white;
+:root {
+  --left-color: white;
+  --middle-color: white;
+  --right-color: white;
 }
 
-.weather-bar{
-    background: linear-gradient(90deg,var(--left-color),var(--middle-color),var(--right-color));
-    background-size: 180% 180%;
-    animation: gradient-animation 12s ease infinite;
-    margin-bottom: 0;
-    user-select: none;
+.weather-bar {
+  background: linear-gradient(
+    90deg,
+    var(--left-color),
+    var(--middle-color),
+    var(--right-color)
+  );
+  background-size: 180% 180%;
+  animation: gradient-animation 12s ease infinite;
+  margin-bottom: 0;
+  user-select: none;
 }
 
-.weather img{
-    mix-blend-mode:darken;
-    height: 50px;
-    width: 50px;
-    user-select: none;
+.weather img {
+  mix-blend-mode: darken;
+  height: 50px;
+  width: 50px;
+  user-select: none;
 }
 
-.weather-bar span{
-    text-align: center;
-    align-self: center;
-    user-select: none;
+.weather-bar span {
+  text-align: center;
+  align-self: center;
+  user-select: none;
 }
-
 
 @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
   }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

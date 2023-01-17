@@ -1,12 +1,12 @@
-.weather-forecast-box img{
-    mix-blend-mode:darken;
-    height: 50px;
-    width: 50px;
+.weather-forecast-box img {
+  mix-blend-mode: darken;
+  height: 50px;
+  width: 50px;
 }
 
-.weather-forecast-box div{
-    text-align: center;
-    width: 20%;
-    font-size: calc(0.5em + 1vmin);
-    font-weight: bold;
+.weather-forecast-box div {
+  text-align: center;
+  width: 20%;
+  font-size: calc(0.5em + 1vmin);
+  font-weight: bold;
 }
