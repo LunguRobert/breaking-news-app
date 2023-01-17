@@ -2,6 +2,9 @@
 
 This is a simple news app built using React, Redux, Bootstrap, CSS and utilizing functional and class components. The app displays the latest news from Romania and the current weather. The app is a simple front-end project that allows users to stay up to date with the latest news and weather.
 
+## Live Demo
+You can see a live demo of the app at https://breaking-news.onrender.com/.
+
 ## Features
 - Displays the latest news from Romania
 - Provides current weather information
@@ -21,7 +24,7 @@ This is a simple news app built using React, Redux, Bootstrap, CSS and utilizing
 - Clone or download the repository.
 - Run `npm install` to install all the required dependencies.
 - Run `npm start` to start the development server.
-- The app can be accessed on https://breaking-news.onrender.com/.
+- The app can be accessed on `http://localhost:3000/`.
 
 ## Customization
 The app can be easily customized to suit the needs of your project. You can add more features, change the design or add more news sources.
